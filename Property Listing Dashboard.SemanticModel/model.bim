@@ -1,0 +1,3389 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"RLTR_DATA\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.136.1478.0 (24.09)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "rltr_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rltr data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "RLTR_DATA": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "rltr information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "rltr fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "rltr info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "rltr statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "rltr document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "rltr figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "rltr record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "rltr_data.acre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Acres"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "acre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "rltr_data.area": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "AREA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "area": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "neighbourhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "neighborhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "rltr_data.bathroom": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Bathrooms"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bathroom": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "lavatory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "toilet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "restroom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "rltr_data.bedroom": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Bedrooms"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bedroom": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boudoir": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "dorm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "bedchamber": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "chamber": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dormitory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "room": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "rltr_data.county": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "County"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "county": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "shire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "canton": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_dt": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "CREATED_DT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created dt": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CREATED_DT": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "dt": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_dt.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "CREATED_DT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created dt date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dt date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_dt.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "CREATED_DT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created dt day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dt day": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_dt.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "CREATED_DT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created dt month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dt month": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "created dt mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "dt mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_dt.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "CREATED_DT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created dt quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dt quarter": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "created dt qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "dt qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_dt.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "CREATED_DT"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created dt year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dt year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "created dt yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "dt yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_mo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "CREATED_MO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created mo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CREATED_MO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "mo": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "rltr_data.created_yr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "CREATED_YR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created yr": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CREATED_YR": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "yr": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "rltr_data.location": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Location"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "location": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "place": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "placement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "scene": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "venue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "setting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "spot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "rltr_data.origin": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "ORIGIN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "origin": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "derivation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "source": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cause": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "beginning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "foundation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "rltr_data.price": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Price"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "bill": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "expense": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "outlay": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "penalty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "rltr_data.price_per_acre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Price Per Acre"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price per acre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "value per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "worth per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fee per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "charge per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "amount per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "bill per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rate per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "expense per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "cost per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "outlay per acre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "rltr_data.price_per_area": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Price Per Area"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price per area": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "price per region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "price per locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "price per locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "price per neighbourhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "price per district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "price per continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "price per field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "price per neighborhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "price per section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "price per space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "rltr_data.property_link": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Property Link"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "property link": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "link": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "property connection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "property relation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "property association": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "property relationship": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "property linkage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "property nexus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "connection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "relation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "association": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "relationship": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "rltr_data.status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "prestige": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "prominence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "level": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "Property Type": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "rltr_data.time_on_site": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "Time On Site"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "time on site": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "duration on site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "interval on site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "moment on site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "period on site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "timetable on site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "time on website": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "time on campus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "time on homepage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "time on locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "time on place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "rltr_data.uid": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RLTR_DATA",
+                    "ConceptualProperty": "UID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "uid": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "rltr_data_created_dt_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data.created_dt"
+                      }
+                    },
+                    "ID": "created_dts_have_created_dt_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data.created_dt": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt"
+                    }
+                  },
+                  "rltr_data.created_dt.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_created_dt_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_dt_date_hierarchies_have_created_dt_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data.created_dt.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy"
+                    }
+                  },
+                  "rltr_data.created_dt.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_created_dt_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_dt_date_hierarchies_have_created_dt_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data.created_dt.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy"
+                    }
+                  },
+                  "rltr_data.created_dt.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_created_dt_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_dt_date_hierarchies_have_created_dt_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data.created_dt.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy"
+                    }
+                  },
+                  "rltr_data.created_dt.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_created_dt_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data.created_dt.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_dt_date_hierarchies_have_created_dt_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data.created_dt.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy"
+                    }
+                  },
+                  "rltr_data.created_dt.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_acre": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.acre"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_acres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.acre": {
+                    "Target": {
+                      "Entity": "rltr_data.acre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_area": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.area"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_areas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "large": {
+                            "State": "Generated"
+                          }
+                        },
+                        {
+                          "big": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "small": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "rltr_data.area"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "area_indicates_how_large_rltr_data_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.area": {
+                    "Target": {
+                      "Entity": "rltr_data.area"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_bathroom": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.bathroom"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_bathrooms",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.bathroom": {
+                    "Target": {
+                      "Entity": "rltr_data.bathroom"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_bedroom": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.bedroom"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_bedrooms",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.bedroom": {
+                    "Target": {
+                      "Entity": "rltr_data.bedroom"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_county": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.county"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_counties",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.county": {
+                    "Target": {
+                      "Entity": "rltr_data.county"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_created_dt": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_dt"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_created_dts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.created_dt": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_created_mo": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_mo"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_created_mo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.created_mo": {
+                    "Target": {
+                      "Entity": "rltr_data.created_mo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_created_yr": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.created_yr"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_created_yrs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.created_yr": {
+                    "Target": {
+                      "Entity": "rltr_data.created_yr"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_location": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.location"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_locations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.location": {
+                    "Target": {
+                      "Entity": "rltr_data.location"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_origin": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.origin"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_origins",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.origin": {
+                    "Target": {
+                      "Entity": "rltr_data.origin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_price": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.price"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_prices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "rltr_data.price"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "price_indicates_how_expensive_rltr_data_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.price": {
+                    "Target": {
+                      "Entity": "rltr_data.price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_price_per_acre": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.price_per_acre"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_price_per_acre",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "rltr_data.price_per_acre"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "price_per_acre_indicates_how_expensive_rltr_data_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.price_per_acre": {
+                    "Target": {
+                      "Entity": "rltr_data.price_per_acre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_price_per_area": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.price_per_area"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_price_per_area",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.price_per_area": {
+                    "Target": {
+                      "Entity": "rltr_data.price_per_area"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_property_link": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.property_link"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_property_links",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.property_link": {
+                    "Target": {
+                      "Entity": "rltr_data.property_link"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_status": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.status"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_statuses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.status": {
+                    "Target": {
+                      "Entity": "rltr_data.status"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_time_on_site": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.time_on_site"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_time_on_site",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.time_on_site": {
+                    "Target": {
+                      "Entity": "rltr_data.time_on_site"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_has_uid": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rltr_data.uid"
+                      },
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "ID": "rltr_data_have_uids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.uid": {
+                    "Target": {
+                      "Entity": "rltr_data.uid"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_in_county": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "rltr_data_are_in_counties",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "rltr_data.county"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.county": {
+                    "Target": {
+                      "Entity": "rltr_data.county"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "rltr_data.county"
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_in_location": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "rltr_data_are_in_locations",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "rltr_data.location"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "rltr_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.location": {
+                    "Target": {
+                      "Entity": "rltr_data.location"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "rltr_data.location"
+                  }
+                },
+                "State": "Generated"
+              },
+              "rltr_data_is_created_on_created_dt": {
+                "Binding": {
+                  "ConceptualEntity": "RLTR_DATA"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "rltr_data_are_created_on_created_dts",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "rltr_data"
+                      },
+                      "Verbs": [
+                        {
+                          "create": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "rltr_data": {
+                    "Target": {
+                      "Entity": "rltr_data"
+                    }
+                  },
+                  "rltr_data.created_dt": {
+                    "Target": {
+                      "Entity": "rltr_data.created_dt"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "rltr_data.created_dt"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "a5e767c4-05a9-4ab5-8bf9-1e9caccc4742",
+        "fromColumn": "CREATED_DT",
+        "fromTable": "RLTR_DATA",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_6a4dadbe-53dc-4339-b207-859d5d8ffa3d"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "RLTR_DATA",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "UID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "#,0",
+            "lineageTag": "42221e6a-9ae8-437b-ac80-ed2215202ae6",
+            "sourceColumn": "UID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "County",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "County",
+            "dataType": "string",
+            "lineageTag": "558ff611-ff72-4331-a409-6814b29d922d",
+            "sourceColumn": "County",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ORIGIN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "de62e532-eeba-41e4-a4f9-084e163a1385",
+            "sourceColumn": "ORIGIN",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CREATED_DT",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "f97bf8bf-6466-4014-b00b-97a170e4af16",
+            "sourceColumn": "CREATED_DT",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_6a4dadbe-53dc-4339-b207-859d5d8ffa3d"
+                },
+                "isDefault": true,
+                "relationship": "a5e767c4-05a9-4ab5-8bf9-1e9caccc4742"
+              }
+            ]
+          },
+          {
+            "name": "CREATED_MO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "42fc976c-fe13-4671-91a7-53086fd0eda3",
+            "sourceColumn": "CREATED_MO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CREATED_YR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4b74df87-dd29-4d1f-9d41-35ed241d6269",
+            "sourceColumn": "CREATED_YR",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d3f25577-d77f-40bd-a0c6-58a31c2fcf92",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "0bc38449-d7b5-4fd9-93b2-52a4c6d0b018",
+            "sourceColumn": "Price",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Acres",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9b76ed91-d10e-482c-a1c7-89d44a21c507",
+            "sourceColumn": "Acres",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AREA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "418b1ab0-95e2-42f7-ab00-b5d8d71d2d36",
+            "sourceColumn": "AREA",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Price Per Acre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "c00e5dc8-dcc5-471b-a041-deeab8ef0b53",
+            "sourceColumn": "Price Per Acre",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Price Per Area",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e96ee9ee-8ae8-4fc8-bf35-9d88bc277ee9",
+            "sourceColumn": "Price Per Area",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Bedrooms",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "7a312ca2-6781-499f-838b-006f757c6240",
+            "sourceColumn": "Bedrooms",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Bathrooms",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "90bcec9c-a81c-4a50-9935-b83903d3955c",
+            "sourceColumn": "Bathrooms",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Time On Site",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a00d64fa-e572-4ac3-a963-39877c5b4d99",
+            "sourceColumn": "Time On Site",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Property Link",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bf53b976-3f90-49ae-b3cd-9ac9d87410d0",
+            "sourceColumn": "Property Link",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Location",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Place",
+            "dataType": "string",
+            "expression": "CONCATENATE(RLTR_DATA[County],\", TX USA\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "13247731-b058-4587-b4a3-1abe6f9ddd45",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "b17c81f8-6741-42bb-bc7b-f7e99b9807d3",
+        "partitions": [
+          {
+            "name": "RLTR_DATA",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Snowflake.Databases(\"jvcxwms-ew53062.snowflakecomputing.com\",\"jbr_dash\",[Role=\"sysadmin\"]),",
+                "    JBR_DASH_Database = Source{[Name=\"JBR_DASH\",Kind=\"Database\"]}[Data],",
+                "    PUBLIC_Schema = JBR_DASH_Database{[Name=\"PUBLIC\",Kind=\"Schema\"]}[Data],",
+                "    RLTR_DATA_Table = PUBLIC_Schema{[Name=\"RLTR_DATA\",Kind=\"Table\"]}[Data],",
+                "    #\"Renamed Columns\" = Table.RenameColumns(RLTR_DATA_Table,{{\"COUNTY\", \"County\"}, {\"ACRES\", \"Acres\"}, {\"CNT_BR\", \"Bedrooms\"}, {\"CNT_BTH\", \"Bathrooms\"}, {\"PRICE\", \"Price\"}, {\"PRICE_ACRE\", \"Price Per Acre\"}, {\"PRICE_AREA\", \"Price Per Area\"}, {\"STATUS\", \"Status\"}, {\"TIME_ON_SITE\", \"Time On Site\"}, {\"URL\", \"Property Link\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_58edfd13-3b72-4d90-92db-3513b4aa20f1",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "d5f4e53e-4fc3-4ed3-a45f-a628a1a07aac",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "c8aeb549-4942-49ba-a934-308ee884db97",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "1223e4f6-48ec-46c7-90a8-bf1df1135bd7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "a73c3966-1d3f-49ae-845b-da3003794bda",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "dd0fced9-51f8-44fc-ae5f-850eba550df0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "7d4594d7-4f08-4c26-be6f-07928d2fd887",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "37844457-f19b-45a5-8a4e-afb2d65de0c2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "69da185f-3525-492f-ba22-477d8d94129b",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "b41b2086-713c-48bb-aaef-29309c90d199",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "ccc9c8a4-528e-481b-b85e-7606e3373b41",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "96946000-09c6-425e-ae1d-47fa2d166fb2",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "ce2a5e68-c91e-437f-9e46-6ee8e1eacde0"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "3186e05f-ed9d-47dc-9347-d93e82992aaf",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_58edfd13-3b72-4d90-92db-3513b4aa20f1",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_6a4dadbe-53dc-4339-b207-859d5d8ffa3d",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "cfc27126-2b9c-42b3-82e4-b4e842f636ca",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "d843efe3-5c0a-4e3b-8648-91f55ec2f791",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "36594012-8c14-413f-979d-59176bab6abf",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "9f79dc79-4d4a-405d-b550-12c58da311eb",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "c7a987cc-e626-4ffd-8d17-26a88745c100",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "65f8595a-07cf-491b-8691-1104885d7d95",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "afc62291-b3a9-4e6b-9487-3645fe19cf8b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "42ea04ca-9472-4e34-9c2e-90d6e4c7d837",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "33df390c-e491-44dd-8ed7-e7aaadf0ae76",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "a588f530-df4e-4f3c-ae43-6bacaa4899e3",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "fe063f35-fefb-4782-8c37-4db6bf6abf3b",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "448f191f-bed1-40a9-8690-f9e828b280c4"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "b5a39c81-7714-4d94-91d6-87828953b55f",
+        "partitions": [
+          {
+            "name": "LocalDateTable_6a4dadbe-53dc-4339-b207-859d5d8ffa3d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('RLTR_DATA'[CREATED_DT])), 1, 1), Date(Year(MAX('RLTR_DATA'[CREATED_DT])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
